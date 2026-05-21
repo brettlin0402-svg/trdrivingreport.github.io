@@ -22,10 +22,10 @@ const MODES = {
 const RULES = {
   before: [
     { id: 'e1000', label: 'E1000 推拉式', minutes: 90 },
-    { id: 'r200', label: 'R200 機車', sequence: [60, 20] },
+    { id: 'r200', label: 'E&R型機車', sequence: [60, 20] },
     { id: 'emu900', label: 'EMU900', minutes: 70 },
     { id: 'emu3000', label: 'EMU3000', minutes: 80 },
-    { id: 'emu700', label: 'EMU700', sequence: [60, 20] },
+    { id: 'emu700', label: '電聯車組', sequence: [60, 20] },
     { id: 'dr3100', label: 'DR3100', sequence: [60, 20] },
     { id: 'dr1000', label: 'DR1000', sequence: [60, 20], maxTotal: 120 },
     { id: 'ride', label: '便乘', minutes: 40, maxCount: 1 },
@@ -34,10 +34,10 @@ const RULES = {
   ],
   after: [
     { id: 'e1000', label: 'E1000 推拉式', minutes: 50 },
-    { id: 'r200', label: 'R200 機車', sequence: [40, 10] },
+    { id: 'r200', label: 'E&R型機車', sequence: [40, 10] },
     { id: 'emu900', label: 'EMU900', minutes: 50 },
     { id: 'emu3000', label: 'EMU3000', minutes: 50 },
-    { id: 'emu700', label: 'EMU700', sequence: [40, 10] },
+    { id: 'emu700', label: '電聯車組', sequence: [40, 10] },
     { id: 'dr3100', label: 'DR3100', sequence: [40, 10] },
     { id: 'dr1000', label: 'DR1000', sequence: [40, 10] },
     { id: 'ride', label: '便乘', minutes: 20, maxCount: 1 },
